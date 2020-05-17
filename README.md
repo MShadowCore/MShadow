@@ -1,10 +1,10 @@
 What is MShadow?
 ----------------
 
-Pyrk is an experimental digital currency that enables anonymous, instant
+MShadow is an experimental digital currency that enables anonymous, instant
 payments to anyone, anywhere in the world. Pyrk uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Pyrk is the name of the open
+are carried out collectively by the network. MShadow is the name of the open
 source software which enables the use of this currency.
 
 License
