@@ -6,13 +6,13 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/pyrk
-src/pyrkd
-src/pyrk-cli
-src/pyrk-tx
-src/test/test_pyrk
-src/qt/test/test_pyrk-qt
-src/bench/bench_pyrk
+src/MShadow
+src/MShadow
+src/MShadow-cli
+src/MShadow-tx
+src/test/test_MShadow
+src/qt/test/test_MShadow-qt
+src/bench/bench_MShadow
 
 # autoreconf
 Makefile.in
@@ -80,15 +80,15 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-pyrk-qt
-Pyrk-Qt.app
+MShadow-qt
+MShadow-Qt.app
 
 # Qt Creator
 Makefile.am.user
 
 # Unit-tests
 Makefile.test
-pyrk-qt_test
+MShadow-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -102,7 +102,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_pyrk.coverage/
+test_MShadow.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -122,13 +122,13 @@ qa/cache/*
 
 libdashconsensus.pc
 contrib/devtools/split-debug.sh
-src/qt/pyrk-qt.bash
+src/qt/MShadow-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
-pyrk-cli
-pyrkd
-pyrk-qt
+MShadow-cli
+MShadowd
+MShadow-qt
 make
 
 /docker/bin
